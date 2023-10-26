@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pong-mp"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Meza <ramon_meza@live.com>"]
+readme = "README.md"
+packages = [{include = "pong_mp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
